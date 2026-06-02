@@ -45,7 +45,7 @@ with t2:
         t5=st.radio("Gender",["Female","Male"])
                       
         if st.form_submit_button("SignIn"):
-            my.insert_one({"username":t1,"password":t2,"dob":str(t3),"mobile number":t4,"Gender":t5"})
+            my.insert_one({"username":t1,"password":t2,"dob":str(t3),"mobile number":t4,"Gender":t5})
              
             if not t1 or not t2 or not t3 or not t4 or not t5 :
                 st.error("Fill The Fields!!!")
