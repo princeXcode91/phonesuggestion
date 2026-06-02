@@ -3,14 +3,12 @@ import pandas as pd
 import plotly.express as px
 
 
-st.set_page_config(page_title="AI Smartphone Selector",page_icon="📱",
-    layout="wide")
+st.set_page_config(page_title="AI Smartphone Selector",page_icon="📱", layout="wide")
 
 st.title("⚡ AI Smartphone Selector & Predictive Analyzer")
 
 st.write("""Adjust your preferences below.  Our AI engine dynamically analyzes smartphone ecosystems
-based on hardware configuration, pricing strategy and performance optimization.
-""")
+based on hardware configuration, pricing strategy and performance optimization. """)
 
 
 
@@ -24,8 +22,8 @@ device_data = pd.DataFrame({
     'Performance_Score': [98, 95, 92, 90, 88, 84, 78, 75],
     
     'Brand_Tier': ['Tier 1 Premium','Tier 1 Android','Tier 1 AI Camera',
-        'Tier 2 Performance','Tier 2 Gaming','Tier 2 Value',
-        'Tier 3 Budget','Tier 3 Budget Gaming'],
+                   'Tier 2 Performance','Tier 2 Gaming','Tier 2 Value',
+                   'Tier 3 Budget','Tier 3 Budget Gaming'],
     
     'Value_Rating': ["⭐⭐⭐⭐⭐","⭐⭐⭐⭐⭐","⭐⭐⭐⭐",
         "⭐⭐⭐⭐","⭐⭐⭐⭐","⭐⭐⭐⭐","⭐⭐⭐","⭐⭐⭐"],
