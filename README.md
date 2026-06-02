@@ -1,13 +1,13 @@
 🤖 AI Smartphone Recommendation Engine
-
+---
 📌 Project Title
 
 👉 AI Smartphone Recommendation Engine & Predictive Analyzer
-
+---
 
 
 📖 About The Project
-
+---
 👉 The AI Smartphone Recommendation Engine is an advanced intelligent web application developed using Python Streamlit and MongoDB.
 
 The project is designed to help users intelligently compare and analyze smartphones according to:
@@ -19,6 +19,7 @@ The project is designed to help users intelligently compare and analyze smartpho
 -> Processor preference
 -> RAM & Storage
 -> Productivity requirements
+---
 
 👉 The system dynamically predicts the best smartphone ecosystem using AI-inspired evaluation logic and real-time filtering analytics.
 
@@ -32,14 +33,15 @@ This project combines:
 -> Real-Time Filtering
 
 The application is completely responsive and cloud deployable using Streamlit Cloud.
-
+---
 
 🎯 Purpose / Advantages / Applications
+---
 
 ✅ Purpose
 
 👉 The main purpose of this project is to simplify smartphone purchasing decisions using intelligent filtering and analytics.
-
+---
 
 ✅ Advantages
 
@@ -50,7 +52,7 @@ The application is completely responsive and cloud deployable using Streamlit Cl
 -> Cloud deployable architecture
 -> Secure MongoDB integration
 -> Multi-page application support
-
+---
 
 
 ✅ Applications
@@ -59,11 +61,11 @@ The application is completely responsive and cloud deployable using Streamlit Cl
 -> Product comparison platforms
 -> Mobile analytics dashboard
 -> Streamlit portfolio projects
-
+---
 
 
 🖥️ Front-End Technologies
-
+---
 ➡️ Python Streamlit
 
 The project front-end is developed using:
@@ -75,6 +77,7 @@ The project front-end is developed using:
 -> Streamlit Tabs
 -> Streamlit Status Components
 -> Streamlit Charts
+---
 
 Features Used
 
@@ -85,10 +88,10 @@ Features Used
 -> Metrics
 -> Data tables
 -> Plotly visualizations
-
+---
 
 ⚙️ Back-End Technologies
-
+---
 ➡️ MongoDB
 
 MongoDB Atlas is used as the cloud database.
@@ -99,12 +102,12 @@ Database Features
 -> Signup data storage
 -> Contact form data handling
 -> Real-time cloud database integration
+---
 
 Database Collection
 
 Database Name: ojt2
 Collection Name: student
-
 ---
 
 🧠 Core Modules
