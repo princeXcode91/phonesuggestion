@@ -12,13 +12,13 @@
 
 The project is designed to help users intelligently compare and analyze smartphones according to:
 
--> Budget
--> Gaming performance
--> Camera quality
--> Battery capacity
--> Processor preference
--> RAM & Storage
--> Productivity requirements
+- Budget
+- Gaming performance
+- Camera quality
+- Battery capacity
+- Processor preference
+- RAM & Storage
+- Productivity requirements
 ---
 
 👉 The system dynamically predicts the best smartphone ecosystem using AI-inspired evaluation logic and real-time filtering analytics.
@@ -45,22 +45,22 @@ The application is completely responsive and cloud deployable using Streamlit Cl
 
 ✅ Advantages
 
--> Real-time smartphone analysis
--> Dynamic recommendation engine
--> Interactive and user-friendly dashboard
--> AI-inspired decision support
--> Cloud deployable architecture
--> Secure MongoDB integration
--> Multi-page application support
+- Real-time smartphone analysis
+- Dynamic recommendation engine
+- Interactive and user-friendly dashboard
+- AI-inspired decision support
+- Cloud deployable architecture
+- Secure MongoDB integration
+- Multi-page application support
 ---
 
 
 ✅ Applications
 
--> E-commerce recommendation systems
--> Product comparison platforms
--> Mobile analytics dashboard
--> Streamlit portfolio projects
+- E-commerce recommendation systems
+- Product comparison platforms
+- Mobile analytics dashboard
+- Streamlit portfolio projects
 ---
 
 
@@ -81,13 +81,13 @@ The project front-end is developed using:
 
 Features Used
 
--> Interactive forms
--> Sliders
--> Select boxes
--> Tabs
--> Metrics
--> Data tables
--> Plotly visualizations
+- Interactive forms
+- Sliders
+- Select boxes
+- Tabs
+- Metrics
+- Data tables
+- Plotly visualizations
 ---
 
 ⚙️ Back-End Technologies
@@ -98,10 +98,10 @@ MongoDB Atlas is used as the cloud database.
 
 Database Features
 
--> User authentication storage
--> Signup data storage
--> Contact form data handling
--> Real-time cloud database integration
+- User authentication storage
+- Signup data storage
+- Contact form data handling
+- Real-time cloud database integration
 ---
 
 Database Collection
@@ -118,9 +118,9 @@ The homepage introduces the AI recommendation ecosystem.
 
 Features
 
--> Hardware intelligence dashboard
--> Recommendation engine status
--> Market intelligence categories
+- Hardware intelligence dashboard
+- Recommendation engine status
+- Market intelligence categories
 ----
 
 
@@ -139,26 +139,25 @@ Features
 
 Features
 
--> User message form
--> Input validation
--> Real-time response
--> Customer interaction simulation
+-  User message form
+-  Input validation
+-  Real-time response
+-  Customer interaction simulation
 ---
 
 4️⃣ Smartphone Category Analyzer
 
 Features
 
--> Budget filtering
--> Hardware filtering
--> RAM selection
--> Storage selection
--> Processor selection
--> Camera preference
--> Gaming optimization analysis
--> AI-based recommendation engine
--> Plotly scatter chart visualization
--> Brand comparison dashboard
+- Budget filtering
+- Hardware filtering
+- RAM selection
+- Storage selection
+- Processor selection
+- Camera preference
+- Gaming optimization analysis
+- Plotly scatter chart visualization
+- Brand comparison dashboard
 ---
 
 🗂️ Project Structure
@@ -222,10 +221,10 @@ phonesuggestion/
 
 The project uses Plotly Express for:
 
--> Scatter charts
--> Market positioning analysis
--> Brand performance visualization
--> Interactive data comparison
+- Scatter charts
+- Market positioning analysis
+- Brand performance visualization
+- Interactive data comparison
 ---
 
 🔐 Authentication Workflow
@@ -335,10 +334,10 @@ Python Developer | Streamlit Developer | MongoDB Enthusiast
 
 The AI Smartphone Recommendation Engine demonstrates the integration of:
 
--> Front-end analytics
--> Back-end database systems
--> Interactive dashboards
--> Real-time filtering
--> Cloud deployment
+- Front-end analytics
+- Back-end database systems
+- Interactive dashboards
+- Real-time filtering
+- Cloud deployment
 
 This project showcases practical implementation of AI-inspired product analytics using modern Python technologies.
