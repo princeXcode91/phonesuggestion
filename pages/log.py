@@ -28,10 +28,6 @@ with t1:
               st.checkbox("Agree Terms")
               if st.form_submit_button("Sign In"):
                      my.insert_one({"userlogin ":username, "password":password})
-
-
-
-
                      
                      st.switch_page("pages/contact.py")
               if password == confirm:
@@ -39,8 +35,6 @@ with t1:
                      st.snow()
               else:
                      st.error("Your password is incorrect")
-           
-
 
 with t2:
        with st.form("SignIn"):
