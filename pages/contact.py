@@ -4,9 +4,7 @@ import pymongo
 import random
 import time
 
-conn = pymongo.MongoClient('''mongodb://127.0.0.1:27017/?directConnection
-                           =true&serverSelectionTimeoutMS=2000&appName=mongosh
-                           +2.8.3''')
+conn = pymongo.MongoClient('''mongodb+srv://princebarnwal030_db_user:W0v9Y5WmE6BJo68F@cluster0.nw4zkbv.mongodb.net/?appName=Cluster0''')
 
 mydb = conn["ojt2"]
 
