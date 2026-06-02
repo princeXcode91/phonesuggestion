@@ -11,12 +11,10 @@ mydb = conn["ojt2"]
 my = mydb["student"]
 p = st.progress(0)
 
-
 for i in range(100):
        p.progress(i+1,"Loading")
        time.sleep(0.02)
-       p.empty()
-       
+       p.empty()      
 
 t1,t2=st.tabs(["signin", "signup"])
 with t1:
@@ -31,10 +29,10 @@ with t1:
                      
                      st.switch_page("pages/contact.py")
               if password == confirm:
-                     st.success("Thanking forSignup")
+                     st.success("Thanking for Signup")
                      st.snow()
               else:
-                     st.error("Your password is incorrect")
+                  st.error("Your password is incorrect")
 
 with t2:
        with st.form("SignIn"):
@@ -46,11 +44,11 @@ with t2:
               t5=st.radio("Gender",["Female","Male"])
                       
               if st.form_submit_button("SignIn"):
-                     my.insert_one({"username":t1,"password":t2,"dob":str(t3),"mobile number":t4,"Gender":t5"})
+                  my.insert_one({"username":t1,"password":t2,"dob":str(t3),"mobile number":t4,"Gender":t5"})
               if not t1 or not t2 or not t3 or not t4 or not t5 :
-                        st.error("Fill The Fields!!!")
+                  st.error("Fill The Fields!!!")
               else:
-                     st.success("Done...")
+                  st.success("Done...")
 
 
     
