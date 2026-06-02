@@ -9,14 +9,8 @@ conn = pymongo.MongoClient('''mongodb+srv://princebarnwal030_db_user:W0v9Y5WmE6B
 mydb = conn["ojt2"]
 
 my = mydb["student"]
-p = st.progress(0)
-
-for i in range(100):
-       p.progress(i+1,"Loading")
-       time.sleep(0.02)
-       p.empty()
        
-st.title("Welcome to the web world journey  using python")
+st.title("Welcome to the AI Smartphone Recommendation Engine")
 
 st.write("Any doubt or questions Contact me .")
     
