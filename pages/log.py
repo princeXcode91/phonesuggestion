@@ -40,29 +40,14 @@ with t2:
        with st.form("SignIn"):
               t1=st.text_input("👤Username")
               t2=st.text_input("🔒Password",type="password")
-              t3=st.text_area("Address")
-              t4=st.selectbox("Course",["B.sc IT","B.sc CA","B.sc CS"])
-              t5=st.date_input("Dob")
-              t6=st.text_input("Mobile Number")
-              t7=st.file_uploader("Upload your picture")
-              t8=st.radio("Gender",["F","M"])
-              t9=st.slider("Age",16,28)
-              st.write("Languages known")
-              st.checkbox("Hindi")
-              st.checkbox("English")
-              st.checkbox("Nagpuri")
-              t10=live_photo=st.camera_input("Upload Your Live Picture")
-              count= random.randrange(1,100)
-              str1="img"
-              str1=str1+str(count)+".jpg"
-              if t10 :
-                     with open(str1,"wb") as f:
-                            f.write(live_photo.getvalue())
-
-         
+              
+              t3=st.date_input("Date of Birth")
+              t4=st.text_input("Mobile Number") 
+              t5=st.radio("Gender",["Female","Male"])
+                      
               if st.form_submit_button("SignIn"):
-                     my.insert_one({"username":t1,"password":t2,"address":t3,"course":t4,"dob":str(t5),"mobile number":t6,"Gender":t8,"age":t9,"phtot": str1})
-              if not t1 or not t2 or not t3 or not t4 or not t5 or not t6 or not t7 or not t8 or not t9 or not  t10:
+                     my.insert_one({"username":t1,"password":t2,"dob":str(t3),"mobile number":t4,"Gender":t5"})
+              if not t1 or not t2 or not t3 or not t4 or not t5 :
                         st.error("Fill The Fields!!!")
               else:
                      st.success("Done...")
