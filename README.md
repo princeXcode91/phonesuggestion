@@ -25,12 +25,12 @@ The project is designed to help users intelligently compare and analyze smartpho
 
 This project combines:
 
--> Interactive User Interface
--> Intelligent Recommendation System
--> Authentication System
--> MongoDB Database Integration
--> Data Visualization
--> Real-Time Filtering
+- Interactive User Interface
+- Intelligent Recommendation System
+- Authentication System
+- MongoDB Database Integration
+- Data Visualization
+- Real-Time Filtering
 
 The application is completely responsive and cloud deployable using Streamlit Cloud.
 ---
@@ -268,7 +268,6 @@ Step 1
 Clone repository
 
 git clone - https://github.com/princeXcode91/phonesuggestion.git
----
 
 Step 2
 
